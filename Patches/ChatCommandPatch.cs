@@ -326,6 +326,7 @@ internal class ChatCommands
                     {
                         var lp = PlayerControl.LocalPlayer;
                         var sb = new StringBuilder();
+                        //sb.Append(String.Format(GetString("PlayerNameForRoleInfo"), Main.AllPlayerNames[PlayerControl.LocalPlayer.PlayerId]));
                         sb.Append(GetString(role.ToString()) + Utils.GetRoleMode(role) + lp.GetRoleInfo(true));
                         if (Options.CustomRoleSpawnChances.TryGetValue(role, out var opt))
                             Utils.ShowChildrenSettings(Options.CustomRoleSpawnChances[role], ref sb, command: true);
@@ -1122,6 +1123,7 @@ internal class ChatCommands
                 if (GameStates.IsInGame)
                 {
                     var sb = new StringBuilder();
+                    //sb.Append(String.Format(GetString("PlayerNameForRoleInfo"), Main.AllPlayerNames[player.PlayerId]));
                     sb.Append(GetString(role.ToString()) + Utils.GetRoleMode(role) + player.GetRoleInfo(true));
                     if (Options.CustomRoleSpawnChances.TryGetValue(role, out var opt))
                         Utils.ShowChildrenSettings(Options.CustomRoleSpawnChances[role], ref sb, command: true);

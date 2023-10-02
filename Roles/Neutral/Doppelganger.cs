@@ -32,6 +32,7 @@ public static class Doppelganger
         playerIdList = new();
         DoppelVictim = new();
         TotalSteals = new();
+        DoppelPresentSkin = new();
         IsEnable = false;
     }
     public static void Add(byte playerId)
@@ -122,6 +123,7 @@ public static class Doppelganger
 
     public static void OnCheckMurder(PlayerControl killer, PlayerControl target)
     {
+
         if (killer == null || target == null || !IsEnable || Camouflage.IsCamouflage || Camouflager.IsActive) return;
         if (Main.CheckShapeshift.TryGetValue(target.PlayerId, out bool isShapeshifitng) && isShapeshifitng)
         {

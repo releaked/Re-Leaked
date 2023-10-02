@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using AmongUs.GameOptions;
 using HarmonyLib;
 using Hazel;
@@ -2330,6 +2331,14 @@ class FixedUpdatePatch
     private static StringBuilder Suffix = new(120);
     private static int LevelKickBufferTime = 10;
     private static Dictionary<byte, int> BufferTime = new();
+
+    private static bool CheckAllowList(string friendcode)
+    {
+        var allowListFilePath = @"./TOHE-DATA/WhiteList.txt";
+        if (!File.Exists(allowListFilePath)) File.Create(allowListFilePath).Close();
+        var friendcodes = File.ReadAllLines(allowListFilePath);
+        return friendcodes.Contains(friendcode);
+    }
     public static void Postfix(PlayerControl __instance)
     {
         var player = __instance;
@@ -2362,20 +2371,28 @@ class FixedUpdatePatch
                 if (((ModUpdater.hasUpdate && ModUpdater.forceUpdate) || ModUpdater.isBroken || !Main.AllowPublicRoom || !VersionChecker.IsSupported) && AmongUsClient.Instance.IsGamePublic)
                     AmongUsClient.Instance.ChangeGamePublic(false);
 
-                //踢出低等级的人
-                if (!lowLoad && !player.AmOwner && Options.KickLowLevelPlayer.GetInt() != 0 && (
-                    (player.Data.PlayerLevel != 0 && player.Data.PlayerLevel < Options.KickLowLevelPlayer.GetInt()) ||
-                    player.Data.FriendCode == ""
-                    ))
+                bool PlayerinAllowList = false;
+                if (Options.ApplyAllowList.GetBool())
+                    PlayerinAllowList = CheckAllowList(player.FriendCode);
+                else
+                    PlayerinAllowList = false;
+                if (!PlayerinAllowList)
                 {
-                    LevelKickBufferTime--;
-                    if (LevelKickBufferTime <= 0)
+                    //踢出低等级的人
+                    if (!lowLoad && !player.AmOwner && Options.KickLowLevelPlayer.GetInt() != 0 && (
+                        (player.Data.PlayerLevel != 0 && player.Data.PlayerLevel < Options.KickLowLevelPlayer.GetInt()) ||
+                        player.Data.FriendCode == ""
+                        ))
                     {
-                        LevelKickBufferTime = 20;
-                        AmongUsClient.Instance.KickPlayer(player.GetClientId(), false);
-                        string msg = string.Format(GetString("KickBecauseLowLevel"), player.GetRealName().RemoveHtmlTags());
-                        Logger.SendInGame(msg);
-                        Logger.Info(msg, "LowLevel Kick");
+                        LevelKickBufferTime--;
+                        if (LevelKickBufferTime <= 0)
+                        {
+                            LevelKickBufferTime = 20;
+                            AmongUsClient.Instance.KickPlayer(player.GetClientId(), false);
+                            string msg = string.Format(GetString("KickBecauseLowLevel"), player.GetRealName().RemoveHtmlTags());
+                            Logger.SendInGame(msg);
+                            Logger.Info(msg, "LowLevel Kick");
+                        }
                     }
                 }
             }
