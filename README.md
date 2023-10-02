@@ -14,7 +14,7 @@
 >
 > **Update**: So, it seems so that I now have a target on my back... okay. It's honestly surprising how many people don't realize that Loonie isn't some great deity. I mean... He said he "needed" the phone for 2FA... he honestly didn't, there's desktop applications of mobile 2FA apps that frankly work the same OR better then the original mobile app. (Cough, like [Authy!](https://authy.com/)) Also, reporting this repository will do nothing since I haven't broken any of Github's [Terms of Service.](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) Dinner is done so it's best I head out for now, links will be up soon!
 >
-> **Update 2**: Loonie is now breaking his GPL license. Bruv really got scared by a few words, not shocking. Looks like I can turn back around and report your GH to the TOH devs. By the way Loonie, since you're so scared. While you're privating channels and breaking licenses, you mind updating the Discord Invite? Looks like you're still claiming your server is TOHE, and not TOH:RE. Thanks.
+> **Update 2**: Loonie is now breaking his GPL license by attempting to block your source from being built on. Bruv really got scared by a few words, not shocking. Looks like I can turn back around and report your GH to the TOH devs. By the way Loonie, since you're so scared. While you're privating channels and breaking licenses, you mind updating the Discord Invite? Looks like you're still claiming your server is TOHE, and not TOH:RE. Thanks OuO.
 >
 > <br> [Canary Builds Here]  [Dev Builds Here] **Download links coming soon.**
 <br>
