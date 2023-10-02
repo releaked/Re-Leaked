@@ -18,7 +18,7 @@
 >
 > <br> [Latest Canary]  [Latest Dev] **Download links coming soon.**
 >
-> **If you wish to contact me, or have further inquiries. My Discord is "thereleak". 
+> **If you wish to contact me, or have further inquiries. My Discord is "thereleak".**
 <br>
 </p>
 <p align="center">
