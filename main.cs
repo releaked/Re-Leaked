@@ -36,8 +36,8 @@ public class Main : BasePlugin
     public static readonly string MainMenuText = " ";
 
     public const string PluginGuid = "com.karped1em.townofhostedited";
-    public const string PluginVersion = "3.1.0.142";
-    public const string PluginDisplayVersion = "3.1.0 dev 14";
+    public const string PluginVersion = "3.1.0.147";
+    public const string PluginDisplayVersion = "3.1.0 dev 15";
     public static readonly string SupportedVersionAU = "2023.7.11";
     public const bool Canary = false;
 
@@ -376,6 +376,7 @@ public class Main : BasePlugin
                 {CustomRoles.Tracker, "#3CB371"},
                 {CustomRoles.Merchant, "#D27D2D"},
                 {CustomRoles.Retributionist, "#228B22"},
+                {CustomRoles.Retributionist, "#228B22"},
                 {CustomRoles.Alchemist, "#a058bf"},
                 {CustomRoles.Deputy, "#df9026"},
                 {CustomRoles.Investigator, "#007FFF"},
@@ -415,6 +416,7 @@ public class Main : BasePlugin
                 {CustomRoles.Innocent, "#8f815e"},
                 {CustomRoles.Pelican, "#34c84b"},
                 {CustomRoles.Revolutionist, "#ba4d06"},
+                {CustomRoles.Lawyer, "#008080"},
                 {CustomRoles.FFF, "#414b66"},
                 {CustomRoles.Konan, "#4d4dff"},
                 {CustomRoles.Gamer, "#68bc71"},
@@ -423,6 +425,7 @@ public class Main : BasePlugin
                 {CustomRoles.Collector, "#9d8892"},
                 {CustomRoles.Provocateur, "#74ba43"},
                 {CustomRoles.Sunnyboy, "#ff9902"},
+                {CustomRoles.Wraith, "#4B0082"},
                 {CustomRoles.Poisoner, "#478800"},
                 {CustomRoles.Huntsman, "#ad8739"},
                 {CustomRoles.CovenLeader, "#663399"},
@@ -466,6 +469,7 @@ public class Main : BasePlugin
                 {CustomRoles.Doomsayer, "#14f786"},
                 {CustomRoles.Masochist, "#684405"},
                 {CustomRoles.Pirate, "#EDC240"},
+                {CustomRoles.NotAssigned, "#ffffff"},
                 {CustomRoles.Shroud, "#6697FF"},
                 {CustomRoles.Werewolf, "#191970"},
                 {CustomRoles.Seeker, "#ffaa00"},
@@ -482,6 +486,7 @@ public class Main : BasePlugin
                 {CustomRoles.Ntr, "#00a4ff"},
                 {CustomRoles.Madmate, "#ff1919"},
                 {CustomRoles.Watcher, "#800080"},
+                {CustomRoles.Doppelganger,"#f6f4a3" },
                 {CustomRoles.Flashman, "#ff8400"},
                 {CustomRoles.Torch, "#eee5be"},
                 {CustomRoles.Seer, "#61b26c"},
@@ -526,6 +531,7 @@ public class Main : BasePlugin
                 {CustomRoles.Glow, "#E2F147"},
                 {CustomRoles.Diseased, "#AAAAAA"},
                 {CustomRoles.Antidote,"#FF9876"},
+                {CustomRoles.Flashman, "#ff8400"},
                 {CustomRoles.VoidBallot,"#FF3399"},
                 {CustomRoles.Aware,"#4B0082"},
                 {CustomRoles.Stubborn,"#FF5733"},
