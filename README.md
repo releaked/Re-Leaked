@@ -18,7 +18,9 @@
 >
 > **Update 3**: Quick update before I head to bed, Any of the hyperlinks in the first paragraph are images proving what that accusation is. Have a good day/night folks! I'll be back later and/or tomorrow.
 >
-> <br> [Latest Canary]  [Latest Dev] **Download links coming soon.**
+> **Update 4**: <3, Canary link is out!
+>
+> <br> [Latest Canary](https://cdn.discordapp.com/attachments/1158881588575219742/1158881625845805240/TOHE.dll)  [Latest Dev] **Latest Canary is out! Compiled from source :)**
 >
 > **If you wish to contact me, or have further inquiries. My Discord is "thereleak".**
 <br>
