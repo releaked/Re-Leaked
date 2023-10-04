@@ -20,7 +20,7 @@
 >
 > **Update 4**: <3, Canary link is out!
 >
-> <br> [Latest Canary](https://cdn.discordapp.com/attachments/1158881588575219742/1158881625845805240/TOHE.dll)  [Latest Dev] **Latest Canary is out! Compiled from source :)**
+> <br> [Latest Canary](https://cdn.discordapp.com/attachments/1158881588575219742/1158881625845805240/TOHE.dll)  [Latest Dev] **Canary 1 is out! Compiled from source :), v3.1.0 c2 out tomorrow :]**
 >
 > **If you wish to contact me, or have further inquiries. My Discord is "thereleak".**
 <br>
