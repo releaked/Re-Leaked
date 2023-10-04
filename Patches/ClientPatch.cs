@@ -83,7 +83,7 @@ internal class RunLoginPatch
     public static void Prefix(ref bool canOnline)
     {
 #if DEBUG
-        if (ClickCount < 10) canOnline = true;
+        if (ClickCount < 10) canOnline = false;
         if (ClickCount >= 10) ModUpdater.forceUpdate = false;
 #endif
     }

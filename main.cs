@@ -36,8 +36,8 @@ public class Main : BasePlugin
     public static readonly string MainMenuText = " ";
 
     public const string PluginGuid = "com.karped1em.townofhostedited";
-    public const string PluginVersion = "3.1.0.142";
-    public const string PluginDisplayVersion = "3.1.0 dev 14";
+    public const string PluginVersion = "3.1.0.147";
+    public const string PluginDisplayVersion = "3.1.0 dev 15";
     public static readonly string SupportedVersionAU = "2023.7.11";
     public const bool Canary = false;
 
@@ -405,7 +405,6 @@ public class Main : BasePlugin
                 {CustomRoles.Jester, "#ec62a5"},
                 {CustomRoles.Terrorist, "#00e600"},
                 {CustomRoles.Executioner, "#c0c0c0"},
-                {CustomRoles.Lawyer, "#008080"},
                 {CustomRoles.God, "#f96464"},
                 {CustomRoles.Opportunist, "#4dff4d"},
                 {CustomRoles.Shaman, "#50c878"},
@@ -415,6 +414,7 @@ public class Main : BasePlugin
                 {CustomRoles.Innocent, "#8f815e"},
                 {CustomRoles.Pelican, "#34c84b"},
                 {CustomRoles.Revolutionist, "#ba4d06"},
+                {CustomRoles.Lawyer, "#008080"},
                 {CustomRoles.FFF, "#414b66"},
                 {CustomRoles.Konan, "#4d4dff"},
                 {CustomRoles.Gamer, "#68bc71"},
