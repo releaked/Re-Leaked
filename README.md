@@ -12,6 +12,9 @@
 >
 > Note: So, I've decided to publicise all of the TOH-RE Dev and Canary Builds. and, I will continue to do so as long as I have access to said ways. (What's next? Is our donations going to go to a new car?)
 >
+> ### Major Update!! (Update 5)
+> The TOHRE Server is now closed, Moe (The Website Developer for tohre.dev) has made his own fork of TOHE called [Town Of Host: Enhanced](https://discord.gg/tohen). I suggest you join that if you wish to see the future of the mod. I will not be leaking TOHEN because Loonie is no longer apart of that team. Loonie's past has also been revealed, you can read that [here,](https://docs.google.com/document/d/1-VH1VME4ePqXaDSZ-p1n6n7IaT-QPJHRKMVCIjmNJ6A) It goes more into Loonie before TOH:RE and the Mod Chat. I will still be leaking TOH:RE versions if they come out, until they don't. Good Day. :]
+>
 > **Update**: So, it seems so that I now have a target on my back... okay. It's honestly surprising how many people don't realize that Loonie isn't some great deity. I mean... He said he "needed" the phone for 2FA... he honestly didn't, there's desktop applications of mobile 2FA apps that frankly work the same OR better then the original mobile app. (Cough, like [Authy!](https://authy.com/)) Also, reporting this repository will do nothing since I haven't broken any of Github's [Terms of Service.](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) Dinner is done so it's best I head out for now, links will be up soon!
 >
 > **Update 2**: Loonie is now breaking his GPL license by attempting to block your source from being built on. He really got scared by a few words, not shocking. Looks like I can turn back around and report your GH to the TOH devs. By the way Loonie, since you're so scared. While you're privating channels and breaking licenses, you mind updating the Discord Invite? Looks like you're still claiming your server is TOHE, and not TOH:RE. Thanks -U-.
@@ -20,7 +23,7 @@
 >
 > **Update 4**: <3, Canary link is out!
 >
-> <br> [Latest Canary](https://cdn.discordapp.com/attachments/1158881588575219742/1158881625845805240/TOHE.dll)  [Latest Dev] **Canary 1 is out! Compiled from source :), v3.1.0 c2 out tomorrow :]**
+> <br> [Latest Canary](https://cdn.discordapp.com/attachments/1158881588575219742/1158881625845805240/TOHE.dll)  [Latest Dev] **Latest Canary is out :], Although v3.1.0 is released now.**
 >
 > **If you wish to contact me, or have further inquiries. My Discord is "thereleak".**
 <br>
